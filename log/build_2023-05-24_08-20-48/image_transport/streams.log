@@ -1,0 +1,158 @@
+[0.010s] Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake /home/bjorn/Documents/ros-projects/cam_ws/src/image_common/image_transport -DCMAKE_INSTALL_PREFIX=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport
+[0.093s] -- The C compiler identification is GNU 11.3.0
+[0.145s] -- The CXX compiler identification is GNU 11.3.0
+[0.154s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.196s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.240s] -- Detecting CXX compiler ABI info - done
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.255s] -- Detecting CXX compile features
+[0.255s] -- Detecting CXX compile features - done
+[0.258s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.501s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.563s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[0.611s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.618s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.627s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.664s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.733s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.736s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.807s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.830s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.866s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.878s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.919s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.919s] -- Found Threads: TRUE  
+[1.075s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.098s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.210s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.272s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.285s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.287s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.287s] -- Configured cpplint exclude dirs and/or files: 
+[1.287s] -- Added test 'lint_cmake' to check CMake code style
+[1.289s] -- Added test 'uncrustify' to check C / C++ code style
+[1.289s] -- Configured uncrustify additional arguments: 
+[1.290s] -- Added test 'xmllint' to check XML markup files
+[1.291s] -- Configuring done (1.3s)
+[1.325s] -- Generating done (0.0s)
+[1.327s] -- Build files have been written to: /home/bjorn/Documents/ros-projects/cam_ws/build/image_transport
+[1.340s] Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake /home/bjorn/Documents/ros-projects/cam_ws/src/image_common/image_transport -DCMAKE_INSTALL_PREFIX=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport
+[1.341s] Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/image_transport -- -j20 -l20
+[1.370s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.370s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.370s] [ 10%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_common.cpp.o[0m
+[1.370s] [ 13%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/publisher.cpp.o[0m
+[1.370s] [ 16%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_publisher.cpp.o[0m
+[1.370s] [ 23%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/subscriber.cpp.o[0m
+[1.370s] [ 23%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_subscriber.cpp.o[0m
+[1.370s] [ 26%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/single_subscriber_publisher.cpp.o[0m
+[1.370s] [ 30%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/image_transport.cpp.o[0m
+[2.091s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.137s] [ 33%] Built target gtest_main
+[4.081s] [ 36%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.127s] [ 36%] Built target gtest
+[8.918s] [ 40%] [32m[1mLinking CXX shared library libimage_transport.so[0m
+[9.303s] [ 40%] Built target image_transport
+[9.308s] [ 46%] [32mBuilding CXX object CMakeFiles/republish.dir/src/republish.cpp.o[0m
+[9.308s] [ 50%] [32mBuilding CXX object CMakeFiles/list_transports.dir/src/list_transports.cpp.o[0m
+[9.308s] [ 53%] [32mBuilding CXX object CMakeFiles/image_transport-publisher.dir/test/test_publisher.cpp.o[0m
+[9.308s] [ 53%] [32mBuilding CXX object CMakeFiles/image_transport_plugins.dir/src/manifest.cpp.o[0m
+[9.308s] [ 56%] [32mBuilding CXX object CMakeFiles/image_transport-camera_common.dir/test/test_camera_common.cpp.o[0m
+[9.308s] [ 60%] [32mBuilding CXX object CMakeFiles/image_transport-subscriber.dir/test/test_subscriber.cpp.o[0m
+[9.308s] [ 66%] [32mBuilding CXX object CMakeFiles/image_transport-remapping.dir/test/test_remapping.cpp.o[0m
+[9.308s] [ 66%] [32mBuilding CXX object CMakeFiles/image_transport-message_passing.dir/test/test_message_passing.cpp.o[0m
+[9.309s] [ 70%] [32mBuilding CXX object CMakeFiles/image_transport-single_subscriber_publisher.dir/test/test_single_subscriber_publisher.cpp.o[0m
+[10.054s] [ 73%] [32m[1mLinking CXX executable image_transport-camera_common[0m
+[10.332s] [ 73%] Built target image_transport-camera_common
+[11.970s] [ 76%] [32m[1mLinking CXX executable image_transport-single_subscriber_publisher[0m
+[12.068s] [ 80%] [32m[1mLinking CXX executable image_transport-publisher[0m
+[12.114s] [ 83%] [32m[1mLinking CXX executable image_transport-message_passing[0m
+[12.157s] [ 86%] [32m[1mLinking CXX executable image_transport-subscriber[0m
+[12.239s] [ 90%] [32m[1mLinking CXX executable image_transport-remapping[0m
+[12.302s] [ 90%] Built target image_transport-single_subscriber_publisher
+[12.549s] [ 90%] Built target image_transport-publisher
+[12.612s] [ 90%] Built target image_transport-message_passing
+[12.642s] [ 90%] Built target image_transport-subscriber
+[12.660s] [ 93%] [32m[1mLinking CXX executable list_transports[0m
+[12.665s] [ 93%] Built target image_transport-remapping
+[12.841s] [ 93%] Built target list_transports
+[13.424s] [ 96%] [32m[1mLinking CXX executable republish[0m
+[13.603s] [ 96%] Built target republish
+[14.960s] [100%] [32m[1mLinking CXX shared library libimage_transport_plugins.so[0m
+[15.211s] [100%] Built target image_transport_plugins
+[15.218s] Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/image_transport -- -j20 -l20
+[15.264s] Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/image_transport
+[15.281s] -- Install configuration: ""
+[15.281s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/default_plugins.xml
+[15.282s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib/libimage_transport.so
+[15.287s] -- Set runtime path of "/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib/libimage_transport.so" to ""
+[15.287s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib/libimage_transport_plugins.so
+[15.291s] -- Set runtime path of "/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib/libimage_transport_plugins.so" to ""
+[15.291s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib/libimage_transport.so
+[15.291s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib/image_transport/list_transports
+[15.292s] -- Set runtime path of "/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib/image_transport/list_transports" to ""
+[15.292s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib/image_transport/republish
+[15.294s] -- Set runtime path of "/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib/image_transport/republish" to ""
+[15.294s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport
+[15.294s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport
+[15.294s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/publisher_plugin.h
+[15.294s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/raw_subscriber.hpp
+[15.294s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/publisher.hpp
+[15.294s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/subscriber_plugin.h
+[15.294s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/exception.h
+[15.294s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/camera_common.hpp
+[15.294s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/subscriber_filter.h
+[15.294s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/subscriber.hpp
+[15.294s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/camera_common.h
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/raw_subscriber.h
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/single_subscriber_publisher.hpp
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/subscriber.h
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/image_transport.h
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/publisher.h
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.h
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/raw_publisher.h
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/loader_fwds.hpp
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/camera_subscriber.hpp
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/visibility_control.hpp
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/single_subscriber_publisher.h
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/camera_publisher.h
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/image_transport.hpp
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/transport_hints.hpp
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/subscriber_filter.hpp
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/transport_hints.h
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/simple_publisher_plugin.hpp
+[15.295s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/camera_publisher.hpp
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/subscriber_plugin.hpp
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/loader_fwds.h
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/raw_publisher.hpp
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/publisher_plugin.hpp
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/exception.hpp
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/simple_subscriber_plugin.hpp
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/simple_subscriber_plugin.h
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/image_transport/image_transport/camera_subscriber.h
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/ament_index/resource_index/package_run_dependencies/image_transport
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/ament_index/resource_index/parent_prefix_path/image_transport
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/environment/ament_prefix_path.sh
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/environment/ament_prefix_path.dsv
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/environment/path.sh
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/environment/path.dsv
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/local_setup.bash
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/local_setup.sh
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/local_setup.zsh
+[15.296s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/local_setup.dsv
+[15.297s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/package.dsv
+[15.297s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/ament_index/resource_index/packages/image_transport
+[15.297s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/image_transport
+[15.297s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/cmake/export_image_transportExport.cmake
+[15.297s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/cmake/export_image_transportExport-noconfig.cmake
+[15.297s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/cmake/ament_cmake_export_targets-extras.cmake
+[15.297s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.297s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/cmake/image_transportConfig.cmake
+[15.297s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/cmake/image_transportConfig-version.cmake
+[15.297s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/package.xml
+[15.303s] Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/image_transport

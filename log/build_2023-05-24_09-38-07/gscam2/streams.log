@@ -1,0 +1,25 @@
+[0.294s] Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/gscam2': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake /home/bjorn/Documents/ros-projects/cam_ws/src/gscam2 -DCMAKE_INSTALL_PREFIX=/home/bjorn/Documents/ros-projects/cam_ws/install/gscam2
+[0.340s] -- The C compiler identification is GNU 11.3.0
+[0.377s] -- The CXX compiler identification is GNU 11.3.0
+[0.384s] -- Detecting C compiler ABI info
+[0.415s] -- Detecting C compiler ABI info - done
+[0.424s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.424s] -- Detecting C compile features
+[0.424s] -- Detecting C compile features - done
+[0.427s] -- Detecting CXX compiler ABI info
+[0.473s] -- Detecting CXX compiler ABI info - done
+[0.480s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.480s] -- Detecting CXX compile features
+[0.480s] -- Detecting CXX compile features - done
+[0.483s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.483s] -- Checking for module 'gstreamer-1.0'
+[0.486s] [31mCMake Error at /home/bjorn/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindPkgConfig.cmake:607 (message):
+[0.486s]   A required package was not found
+[0.486s] Call Stack (most recent call first):
+[0.486s]   /home/bjorn/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/FindPkgConfig.cmake:829 (_pkg_check_modules_internal)
+[0.486s]   CMakeLists.txt:24 (pkg_check_modules)
+[0.486s] 
+[0.486s] [0m
+[0.487s] --   No package 'gstreamer-1.0' found
+[0.487s] -- Configuring incomplete, errors occurred!
+[0.501s] Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/gscam2' returned '1': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake /home/bjorn/Documents/ros-projects/cam_ws/src/gscam2 -DCMAKE_INSTALL_PREFIX=/home/bjorn/Documents/ros-projects/cam_ws/install/gscam2

@@ -1,0 +1,45 @@
+[0.663s] Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/prefix_override:/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/build install --record /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/install.log --single-version-externally-managed
+[0.902s] running egg_info
+[0.902s] creating ../../../build/opencv_tests/opencv_tests.egg-info
+[0.902s] writing ../../../build/opencv_tests/opencv_tests.egg-info/PKG-INFO
+[0.903s] writing dependency_links to ../../../build/opencv_tests/opencv_tests.egg-info/dependency_links.txt
+[0.903s] writing entry points to ../../../build/opencv_tests/opencv_tests.egg-info/entry_points.txt
+[0.903s] writing requirements to ../../../build/opencv_tests/opencv_tests.egg-info/requires.txt
+[0.903s] writing top-level names to ../../../build/opencv_tests/opencv_tests.egg-info/top_level.txt
+[0.904s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[0.905s] reading manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[0.905s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[0.905s] running build
+[0.905s] running build_py
+[0.905s] creating /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/build
+[0.905s] creating /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/build/lib
+[0.905s] creating /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/build/lib/opencv_tests
+[0.906s] copying opencv_tests/__init__.py -> /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/build/lib/opencv_tests
+[0.906s] copying opencv_tests/source.py -> /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/build/lib/opencv_tests
+[0.908s] copying opencv_tests/broadcast.py -> /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/build/lib/opencv_tests
+[0.908s] copying opencv_tests/rosfacedetect.py -> /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/build/lib/opencv_tests
+[0.908s] running install
+[0.908s] running install_lib
+[0.909s] creating /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[0.909s] copying /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/build/lib/opencv_tests/__init__.py -> /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[0.909s] copying /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/build/lib/opencv_tests/source.py -> /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[0.909s] copying /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/build/lib/opencv_tests/broadcast.py -> /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[0.909s] copying /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/build/lib/opencv_tests/rosfacedetect.py -> /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[0.909s] byte-compiling /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/__init__.py to __init__.cpython-310.pyc
+[0.909s] byte-compiling /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/source.py to source.cpython-310.pyc
+[0.910s] byte-compiling /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/broadcast.py to broadcast.cpython-310.pyc
+[0.910s] byte-compiling /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/rosfacedetect.py to rosfacedetect.cpython-310.pyc
+[0.911s] running install_data
+[0.911s] creating /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/ament_index
+[0.911s] creating /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/ament_index/resource_index
+[0.911s] creating /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/ament_index/resource_index/packages
+[0.911s] copying resource/opencv_tests -> /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/ament_index/resource_index/packages
+[0.911s] copying package.xml -> /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/opencv_tests
+[0.911s] running install_egg_info
+[0.912s] Copying ../../../build/opencv_tests/opencv_tests.egg-info to /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests-3.2.1-py3.10.egg-info
+[0.913s] running install_scripts
+[0.926s] Installing broadcast script to /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/opencv_tests
+[0.926s] Installing rosfacedetect script to /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/opencv_tests
+[0.926s] Installing source script to /home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/opencv_tests
+[0.926s] writing list of installed files to '/home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/install.log'
+[0.945s] Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/prefix_override:/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/build install --record /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/install.log --single-version-externally-managed

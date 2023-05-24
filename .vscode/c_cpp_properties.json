@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/install/gscam2/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/install/ros2_shared/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/src/gscam2/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/src/image_common/camera_calibration_parsers/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/src/image_common/camera_info_manager/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/src/image_common/image_transport/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/src/image_transport_plugins/compressed_depth_image_transport/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/src/image_transport_plugins/compressed_image_transport/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/src/image_transport_plugins/theora_image_transport/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/src/ros2_shared/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/src/ros2_v4l2_camera/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/cv_bridge/include/**",
+        "/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/image_geometry/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

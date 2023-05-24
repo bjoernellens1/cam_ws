@@ -1,0 +1,37 @@
+[0.709s] Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/src/py_image_flip': PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/prefix_override:/home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_image_flip build --build-base /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build install --record /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/install.log --single-version-externally-managed
+[0.979s] running egg_info
+[0.980s] creating ../../build/py_image_flip/py_image_flip.egg-info
+[0.980s] writing ../../build/py_image_flip/py_image_flip.egg-info/PKG-INFO
+[0.980s] writing dependency_links to ../../build/py_image_flip/py_image_flip.egg-info/dependency_links.txt
+[0.980s] writing entry points to ../../build/py_image_flip/py_image_flip.egg-info/entry_points.txt
+[0.980s] writing requirements to ../../build/py_image_flip/py_image_flip.egg-info/requires.txt
+[0.980s] writing top-level names to ../../build/py_image_flip/py_image_flip.egg-info/top_level.txt
+[0.981s] writing manifest file '../../build/py_image_flip/py_image_flip.egg-info/SOURCES.txt'
+[0.982s] reading manifest file '../../build/py_image_flip/py_image_flip.egg-info/SOURCES.txt'
+[0.983s] writing manifest file '../../build/py_image_flip/py_image_flip.egg-info/SOURCES.txt'
+[0.983s] running build
+[0.983s] running build_py
+[0.983s] creating /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build
+[0.983s] creating /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib
+[0.983s] creating /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib/py_image_flip
+[0.983s] copying py_image_flip/image_flip_node.py -> /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib/py_image_flip
+[0.983s] copying py_image_flip/__init__.py -> /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib/py_image_flip
+[0.983s] running install
+[0.984s] running install_lib
+[0.984s] creating /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip
+[0.984s] copying /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib/py_image_flip/image_flip_node.py -> /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip
+[0.984s] copying /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib/py_image_flip/__init__.py -> /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip
+[0.985s] byte-compiling /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip/image_flip_node.py to image_flip_node.cpython-310.pyc
+[0.985s] byte-compiling /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip/__init__.py to __init__.cpython-310.pyc
+[0.985s] running install_data
+[0.985s] creating /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/share/ament_index
+[0.986s] creating /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/share/ament_index/resource_index
+[0.986s] creating /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/share/ament_index/resource_index/packages
+[0.986s] copying resource/py_image_flip -> /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/share/ament_index/resource_index/packages
+[0.986s] copying package.xml -> /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/share/py_image_flip
+[0.986s] running install_egg_info
+[0.987s] Copying ../../build/py_image_flip/py_image_flip.egg-info to /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip-0.0.0-py3.10.egg-info
+[0.987s] running install_scripts
+[1.001s] Installing image_flip_node script to /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/py_image_flip
+[1.002s] writing list of installed files to '/home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/install.log'
+[1.022s] Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/src/py_image_flip' returned '0': PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/prefix_override:/home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_image_flip build --build-base /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build install --record /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/install.log --single-version-externally-managed

@@ -1,0 +1,283 @@
+[0.000000] (-) TimerEvent: {}
+[0.000084] (py_image_flip) JobQueued: {'identifier': 'py_image_flip', 'dependencies': OrderedDict()}
+[0.000107] (v4l2_camera) JobQueued: {'identifier': 'v4l2_camera', 'dependencies': OrderedDict()}
+[0.000293] (py_image_flip) JobStarted: {'identifier': 'py_image_flip'}
+[0.011792] (v4l2_camera) JobStarted: {'identifier': 'v4l2_camera'}
+[0.099776] (-) TimerEvent: {}
+[0.199964] (-) TimerEvent: {}
+[0.261929] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'cmake'}
+[0.262125] (v4l2_camera) Command: {'cmd': ['/home/bjorn/.local/bin/cmake', '/home/bjorn/Documents/ros-projects/cam_ws/src/ros2_v4l2_camera', '-DCMAKE_INSTALL_PREFIX=/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera'], 'cwd': '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bjorn'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/gscam2/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bjorn'), ('OLDPWD', '/home/bjorn/Documents/ros-projects/cam_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7705'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bjorn/Documents/ros-projects/cam_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'bjorn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bjorn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/bjorn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NUC01:@/tmp/.ICE-unix/2203,unix/NUC01:/tmp/.ICE-unix/2203'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1133e49b_1a7b_419d_a679_f15aa4396163'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv:/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins:/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/gscam2:/home/bjorn/Documents/ros-projects/cam_ws/install/ros2_shared:/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests:/home/bjorn/Documents/ros-projects/cam_ws/install/image_common:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/bjorn/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv:/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins:/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/gscam2:/home/bjorn/Documents/ros-projects/cam_ws/install/ros2_shared:/home/bjorn/Documents/ros-projects/cam_ws/install/image_common:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests:/opt/ros/humble')]), 'shell': False}
+[0.300100] (-) TimerEvent: {}
+[0.308652] (v4l2_camera) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.344938] (v4l2_camera) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.351258] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.384882] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.392998] (v4l2_camera) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.393219] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.393521] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.395855] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400158] (-) TimerEvent: {}
+[0.436348] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.445451] (v4l2_camera) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.445677] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.446107] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.447947] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500241] (-) TimerEvent: {}
+[0.600433] (-) TimerEvent: {}
+[0.605435] (py_image_flip) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_image_flip', 'build', '--build-base', '/home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build', 'install', '--record', '/home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/install.log', '--single-version-externally-managed'], 'cwd': '/home/bjorn/Documents/ros-projects/cam_ws/src/py_image_flip', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bjorn', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/gscam2/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bjorn', 'OLDPWD': '/home/bjorn/Documents/ros-projects/cam_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '7705', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1003/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/bjorn/Documents/ros-projects/cam_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'bjorn', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bjorn', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/bjorn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/NUC01:@/tmp/.ICE-unix/2203,unix/NUC01:/tmp/.ICE-unix/2203', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1133e49b_1a7b_419d_a679_f15aa4396163', 'XDG_RUNTIME_DIR': '/run/user/1003', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1003/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1003/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv:/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins:/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/gscam2:/home/bjorn/Documents/ros-projects/cam_ws/install/ros2_shared:/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests:/home/bjorn/Documents/ros-projects/cam_ws/install/image_common:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1003/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/bjorn/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/prefix_override:/home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv:/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins:/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/gscam2:/home/bjorn/Documents/ros-projects/cam_ws/install/ros2_shared:/home/bjorn/Documents/ros-projects/cam_ws/install/image_common:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers'}, 'shell': False}
+[0.693250] (v4l2_camera) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.700498] (-) TimerEvent: {}
+[0.752744] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.759380] (v4l2_camera) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.794911] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.798923] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.800556] (-) TimerEvent: {}
+[0.806200] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.818582] (v4l2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.836286] (v4l2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.841340] (py_image_flip) StdoutLine: {'line': b'running egg_info\n'}
+[0.841653] (py_image_flip) StdoutLine: {'line': b'creating ../../build/py_image_flip/py_image_flip.egg-info\n'}
+[0.841795] (py_image_flip) StdoutLine: {'line': b'writing ../../build/py_image_flip/py_image_flip.egg-info/PKG-INFO\n'}
+[0.841927] (py_image_flip) StdoutLine: {'line': b'writing dependency_links to ../../build/py_image_flip/py_image_flip.egg-info/dependency_links.txt\n'}
+[0.842001] (py_image_flip) StdoutLine: {'line': b'writing entry points to ../../build/py_image_flip/py_image_flip.egg-info/entry_points.txt\n'}
+[0.842111] (py_image_flip) StdoutLine: {'line': b'writing requirements to ../../build/py_image_flip/py_image_flip.egg-info/requires.txt\n'}
+[0.842182] (py_image_flip) StdoutLine: {'line': b'writing top-level names to ../../build/py_image_flip/py_image_flip.egg-info/top_level.txt\n'}
+[0.842804] (py_image_flip) StdoutLine: {'line': b"writing manifest file '../../build/py_image_flip/py_image_flip.egg-info/SOURCES.txt'\n"}
+[0.843834] (py_image_flip) StdoutLine: {'line': b"reading manifest file '../../build/py_image_flip/py_image_flip.egg-info/SOURCES.txt'\n"}
+[0.844329] (py_image_flip) StdoutLine: {'line': b"writing manifest file '../../build/py_image_flip/py_image_flip.egg-info/SOURCES.txt'\n"}
+[0.844462] (py_image_flip) StdoutLine: {'line': b'running build\n'}
+[0.844517] (py_image_flip) StdoutLine: {'line': b'running build_py\n'}
+[0.844628] (py_image_flip) StdoutLine: {'line': b'creating /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build\n'}
+[0.844754] (py_image_flip) StdoutLine: {'line': b'creating /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib\n'}
+[0.844822] (py_image_flip) StdoutLine: {'line': b'creating /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib/py_image_flip\n'}
+[0.844872] (py_image_flip) StdoutLine: {'line': b'copying py_image_flip/image_flip_node.py -> /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib/py_image_flip\n'}
+[0.844919] (py_image_flip) StdoutLine: {'line': b'copying py_image_flip/__init__.py -> /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib/py_image_flip\n'}
+[0.844972] (py_image_flip) StdoutLine: {'line': b'running install\n'}
+[0.845079] (py_image_flip) StdoutLine: {'line': b'running install_lib\n'}
+[0.845414] (py_image_flip) StdoutLine: {'line': b'creating /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip\n'}
+[0.845593] (py_image_flip) StdoutLine: {'line': b'copying /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib/py_image_flip/image_flip_node.py -> /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip\n'}
+[0.845647] (py_image_flip) StdoutLine: {'line': b'copying /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib/py_image_flip/__init__.py -> /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip\n'}
+[0.845811] (py_image_flip) StdoutLine: {'line': b'byte-compiling /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip/image_flip_node.py to image_flip_node.cpython-310.pyc\n'}
+[0.846127] (py_image_flip) StdoutLine: {'line': b'byte-compiling /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip/__init__.py to __init__.cpython-310.pyc\n'}
+[0.846211] (py_image_flip) StdoutLine: {'line': b'running install_data\n'}
+[0.846574] (py_image_flip) StdoutLine: {'line': b'creating /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/share/ament_index\n'}
+[0.846642] (py_image_flip) StdoutLine: {'line': b'creating /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/share/ament_index/resource_index\n'}
+[0.846726] (py_image_flip) StdoutLine: {'line': b'creating /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/share/ament_index/resource_index/packages\n'}
+[0.846788] (py_image_flip) StdoutLine: {'line': b'copying resource/py_image_flip -> /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/share/ament_index/resource_index/packages\n'}
+[0.846835] (py_image_flip) StdoutLine: {'line': b'copying package.xml -> /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/share/py_image_flip\n'}
+[0.846880] (py_image_flip) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.847761] (py_image_flip) StdoutLine: {'line': b'Copying ../../build/py_image_flip/py_image_flip.egg-info to /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip-0.0.0-py3.10.egg-info\n'}
+[0.848307] (py_image_flip) StdoutLine: {'line': b'running install_scripts\n'}
+[0.861316] (py_image_flip) StdoutLine: {'line': b'Installing image_flip_node script to /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/py_image_flip\n'}
+[0.861523] (py_image_flip) StdoutLine: {'line': b"writing list of installed files to '/home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/install.log'\n"}
+[0.877594] (py_image_flip) CommandEnded: {'returncode': 0}
+[0.890272] (py_image_flip) JobEnded: {'identifier': 'py_image_flip', 'rc': 0}
+[0.899057] (v4l2_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.900626] (-) TimerEvent: {}
+[0.901684] (v4l2_camera) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.969414] (v4l2_camera) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.992814] (v4l2_camera) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.000692] (-) TimerEvent: {}
+[1.030170] (v4l2_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.037767] (v4l2_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.073896] (v4l2_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.074728] (v4l2_camera) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.100775] (-) TimerEvent: {}
+[1.200966] (-) TimerEvent: {}
+[1.218884] (v4l2_camera) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.276058] (v4l2_camera) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.5 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[1.301024] (-) TimerEvent: {}
+[1.401192] (-) TimerEvent: {}
+[1.429645] (v4l2_camera) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.444701] (v4l2_camera) StdoutLine: {'line': b'-- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.477607] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.501290] (-) TimerEvent: {}
+[1.538227] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.538437] (v4l2_camera) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bjorn/Documents/ros-projects/cam_ws/src/ros2_v4l2_camera/include>\n'}
+[1.538514] (v4l2_camera) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.540623] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.540710] (v4l2_camera) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.541860] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.543989] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.544112] (v4l2_camera) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.544814] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.547774] (v4l2_camera) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.564588] (v4l2_camera) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.566145] (v4l2_camera) StdoutLine: {'line': b'-- Build files have been written to: /home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera\n'}
+[1.577169] (v4l2_camera) CommandEnded: {'returncode': 0}
+[1.577565] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'build'}
+[1.578009] (v4l2_camera) Command: {'cmd': ['/home/bjorn/.local/bin/cmake', '--build', '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera', '--', '-j20', '-l20'], 'cwd': '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bjorn'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/gscam2/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bjorn'), ('OLDPWD', '/home/bjorn/Documents/ros-projects/cam_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7705'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bjorn/Documents/ros-projects/cam_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'bjorn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bjorn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/bjorn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NUC01:@/tmp/.ICE-unix/2203,unix/NUC01:/tmp/.ICE-unix/2203'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1133e49b_1a7b_419d_a679_f15aa4396163'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv:/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins:/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/gscam2:/home/bjorn/Documents/ros-projects/cam_ws/install/ros2_shared:/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests:/home/bjorn/Documents/ros-projects/cam_ws/install/image_common:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/bjorn/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv:/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins:/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/gscam2:/home/bjorn/Documents/ros-projects/cam_ws/install/ros2_shared:/home/bjorn/Documents/ros-projects/cam_ws/install/image_common:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests:/opt/ros/humble')]), 'shell': False}
+[1.601360] (-) TimerEvent: {}
+[1.607599] (v4l2_camera) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o\x1b[0m\n'}
+[1.607731] (v4l2_camera) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o\x1b[0m\n'}
+[1.607891] (v4l2_camera) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o\x1b[0m\n'}
+[1.701462] (-) TimerEvent: {}
+[1.801750] (-) TimerEvent: {}
+[1.901997] (-) TimerEvent: {}
+[2.002241] (-) TimerEvent: {}
+[2.102510] (-) TimerEvent: {}
+[2.202769] (-) TimerEvent: {}
+[2.303033] (-) TimerEvent: {}
+[2.403280] (-) TimerEvent: {}
+[2.503546] (-) TimerEvent: {}
+[2.603809] (-) TimerEvent: {}
+[2.704064] (-) TimerEvent: {}
+[2.804287] (-) TimerEvent: {}
+[2.904531] (-) TimerEvent: {}
+[3.004799] (-) TimerEvent: {}
+[3.105072] (-) TimerEvent: {}
+[3.205344] (-) TimerEvent: {}
+[3.305592] (-) TimerEvent: {}
+[3.405897] (-) TimerEvent: {}
+[3.506145] (-) TimerEvent: {}
+[3.606406] (-) TimerEvent: {}
+[3.706676] (-) TimerEvent: {}
+[3.806936] (-) TimerEvent: {}
+[3.907194] (-) TimerEvent: {}
+[4.007436] (-) TimerEvent: {}
+[4.107695] (-) TimerEvent: {}
+[4.207967] (-) TimerEvent: {}
+[4.308260] (-) TimerEvent: {}
+[4.408554] (-) TimerEvent: {}
+[4.508804] (-) TimerEvent: {}
+[4.609055] (-) TimerEvent: {}
+[4.709336] (-) TimerEvent: {}
+[4.809611] (-) TimerEvent: {}
+[4.909896] (-) TimerEvent: {}
+[5.010141] (-) TimerEvent: {}
+[5.110401] (-) TimerEvent: {}
+[5.210658] (-) TimerEvent: {}
+[5.310916] (-) TimerEvent: {}
+[5.411172] (-) TimerEvent: {}
+[5.511432] (-) TimerEvent: {}
+[5.611721] (-) TimerEvent: {}
+[5.711954] (-) TimerEvent: {}
+[5.812231] (-) TimerEvent: {}
+[5.912480] (-) TimerEvent: {}
+[6.012710] (-) TimerEvent: {}
+[6.112957] (-) TimerEvent: {}
+[6.213202] (-) TimerEvent: {}
+[6.313431] (-) TimerEvent: {}
+[6.413677] (-) TimerEvent: {}
+[6.513909] (-) TimerEvent: {}
+[6.614149] (-) TimerEvent: {}
+[6.714450] (-) TimerEvent: {}
+[6.814708] (-) TimerEvent: {}
+[6.856798] (v4l2_camera) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libv4l2_camera.so\x1b[0m\n'}
+[6.914826] (-) TimerEvent: {}
+[7.015091] (-) TimerEvent: {}
+[7.115340] (-) TimerEvent: {}
+[7.162079] (v4l2_camera) StdoutLine: {'line': b'[ 50%] Built target v4l2_camera\n'}
+[7.167504] (v4l2_camera) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera_node.dir/src/v4l2_camera_node.cpp.o\x1b[0m\n'}
+[7.167613] (v4l2_camera) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera_compose_test.dir/src/v4l2_camera_compose_test.cpp.o\x1b[0m\n'}
+[7.215450] (-) TimerEvent: {}
+[7.315707] (-) TimerEvent: {}
+[7.415963] (-) TimerEvent: {}
+[7.516305] (-) TimerEvent: {}
+[7.616581] (-) TimerEvent: {}
+[7.716821] (-) TimerEvent: {}
+[7.817061] (-) TimerEvent: {}
+[7.917322] (-) TimerEvent: {}
+[8.017581] (-) TimerEvent: {}
+[8.117841] (-) TimerEvent: {}
+[8.218134] (-) TimerEvent: {}
+[8.318429] (-) TimerEvent: {}
+[8.418731] (-) TimerEvent: {}
+[8.518991] (-) TimerEvent: {}
+[8.619258] (-) TimerEvent: {}
+[8.719523] (-) TimerEvent: {}
+[8.819782] (-) TimerEvent: {}
+[8.920074] (-) TimerEvent: {}
+[9.020365] (-) TimerEvent: {}
+[9.120679] (-) TimerEvent: {}
+[9.131778] (v4l2_camera) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable v4l2_camera_node\x1b[0m\n'}
+[9.220801] (-) TimerEvent: {}
+[9.321082] (-) TimerEvent: {}
+[9.413059] (v4l2_camera) StdoutLine: {'line': b'[ 87%] Built target v4l2_camera_node\n'}
+[9.421172] (-) TimerEvent: {}
+[9.521375] (-) TimerEvent: {}
+[9.621614] (-) TimerEvent: {}
+[9.721860] (-) TimerEvent: {}
+[9.822122] (-) TimerEvent: {}
+[9.922390] (-) TimerEvent: {}
+[10.022644] (-) TimerEvent: {}
+[10.122903] (-) TimerEvent: {}
+[10.223162] (-) TimerEvent: {}
+[10.323423] (-) TimerEvent: {}
+[10.423685] (-) TimerEvent: {}
+[10.523946] (-) TimerEvent: {}
+[10.624201] (-) TimerEvent: {}
+[10.724445] (-) TimerEvent: {}
+[10.824679] (-) TimerEvent: {}
+[10.924927] (-) TimerEvent: {}
+[11.025177] (-) TimerEvent: {}
+[11.125425] (-) TimerEvent: {}
+[11.225656] (-) TimerEvent: {}
+[11.325888] (-) TimerEvent: {}
+[11.426120] (-) TimerEvent: {}
+[11.526353] (-) TimerEvent: {}
+[11.626631] (-) TimerEvent: {}
+[11.726874] (-) TimerEvent: {}
+[11.827120] (-) TimerEvent: {}
+[11.927366] (-) TimerEvent: {}
+[12.027605] (-) TimerEvent: {}
+[12.127863] (-) TimerEvent: {}
+[12.228134] (-) TimerEvent: {}
+[12.328365] (-) TimerEvent: {}
+[12.428573] (-) TimerEvent: {}
+[12.528864] (-) TimerEvent: {}
+[12.629134] (-) TimerEvent: {}
+[12.644439] (v4l2_camera) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable v4l2_camera_compose_test\x1b[0m\n'}
+[12.729254] (-) TimerEvent: {}
+[12.829543] (-) TimerEvent: {}
+[12.929800] (-) TimerEvent: {}
+[13.030063] (-) TimerEvent: {}
+[13.059469] (v4l2_camera) StdoutLine: {'line': b'[100%] Built target v4l2_camera_compose_test\n'}
+[13.065769] (v4l2_camera) CommandEnded: {'returncode': 0}
+[13.101665] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'install'}
+[13.122072] (v4l2_camera) Command: {'cmd': ['/home/bjorn/.local/bin/cmake', '--install', '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera'], 'cwd': '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bjorn'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/gscam2/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bjorn'), ('OLDPWD', '/home/bjorn/Documents/ros-projects/cam_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7705'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bjorn/Documents/ros-projects/cam_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'bjorn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bjorn'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/bjorn/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NUC01:@/tmp/.ICE-unix/2203,unix/NUC01:/tmp/.ICE-unix/2203'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1133e49b_1a7b_419d_a679_f15aa4396163'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv:/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins:/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/gscam2:/home/bjorn/Documents/ros-projects/cam_ws/install/ros2_shared:/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests:/home/bjorn/Documents/ros-projects/cam_ws/install/image_common:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/bjorn/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv:/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins:/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/gscam2:/home/bjorn/Documents/ros-projects/cam_ws/install/ros2_shared:/home/bjorn/Documents/ros-projects/cam_ws/install/image_common:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests:/opt/ros/humble')]), 'shell': False}
+[13.130120] (-) TimerEvent: {}
+[13.139116] (v4l2_camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.139284] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include\n'}
+[13.139337] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera\n'}
+[13.139405] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/fourcc.hpp\n'}
+[13.139472] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp\n'}
+[13.139534] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/parameters.hpp\n'}
+[13.139591] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp\n'}
+[13.139646] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/image_format.hpp\n'}
+[13.139691] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp\n'}
+[13.139746] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/visibility_control.h\n'}
+[13.139791] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/control.hpp\n'}
+[13.139834] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/libv4l2_camera.so\n'}
+[13.144327] (v4l2_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/libv4l2_camera.so" to ""\n'}
+[13.144550] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node\n'}
+[13.144717] (v4l2_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node" to ""\n'}
+[13.144792] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test\n'}
+[13.147291] (v4l2_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test" to ""\n'}
+[13.147426] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh\n'}
+[13.147477] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv\n'}
+[13.147569] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera\n'}
+[13.147655] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera\n'}
+[13.147718] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh\n'}
+[13.147789] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv\n'}
+[13.147860] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/environment/path.sh\n'}
+[13.147928] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/environment/path.dsv\n'}
+[13.148002] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/local_setup.bash\n'}
+[13.148126] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/local_setup.sh\n'}
+[13.148229] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/local_setup.zsh\n'}
+[13.148331] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/local_setup.dsv\n'}
+[13.148392] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/package.dsv\n'}
+[13.148472] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera\n'}
+[13.148557] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera\n'}
+[13.148656] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake\n'}
+[13.148734] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake\n'}
+[13.148809] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.148882] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.148955] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.149031] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.149103] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake\n'}
+[13.149166] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake\n'}
+[13.149229] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/package.xml\n'}
+[13.152840] (v4l2_camera) CommandEnded: {'returncode': 0}
+[13.212604] (v4l2_camera) JobEnded: {'identifier': 'v4l2_camera', 'rc': 0}
+[13.213076] (-) EventReactorShutdown: {}

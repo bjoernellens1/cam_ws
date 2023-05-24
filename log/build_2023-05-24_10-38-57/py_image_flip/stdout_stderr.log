@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/py_image_flip/py_image_flip.egg-info
+writing ../../build/py_image_flip/py_image_flip.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_image_flip/py_image_flip.egg-info/dependency_links.txt
+writing entry points to ../../build/py_image_flip/py_image_flip.egg-info/entry_points.txt
+writing requirements to ../../build/py_image_flip/py_image_flip.egg-info/requires.txt
+writing top-level names to ../../build/py_image_flip/py_image_flip.egg-info/top_level.txt
+writing manifest file '../../build/py_image_flip/py_image_flip.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_image_flip/py_image_flip.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_image_flip/py_image_flip.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build
+creating /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib
+creating /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib/py_image_flip
+copying py_image_flip/image_flip_node.py -> /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib/py_image_flip
+copying py_image_flip/__init__.py -> /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib/py_image_flip
+running install
+running install_lib
+creating /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip
+copying /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib/py_image_flip/image_flip_node.py -> /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip
+copying /home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/build/lib/py_image_flip/__init__.py -> /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip
+byte-compiling /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip/image_flip_node.py to image_flip_node.cpython-310.pyc
+byte-compiling /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/share/ament_index
+creating /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/share/ament_index/resource_index
+creating /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/share/ament_index/resource_index/packages
+copying resource/py_image_flip -> /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/share/ament_index/resource_index/packages
+copying package.xml -> /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/share/py_image_flip
+running install_egg_info
+Copying ../../build/py_image_flip/py_image_flip.egg-info to /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/python3.10/site-packages/py_image_flip-0.0.0-py3.10.egg-info
+running install_scripts
+Installing image_flip_node script to /home/bjorn/Documents/ros-projects/cam_ws/install/py_image_flip/lib/py_image_flip
+writing list of installed files to '/home/bjorn/Documents/ros-projects/cam_ws/build/py_image_flip/install.log'

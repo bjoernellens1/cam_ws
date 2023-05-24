@@ -1,0 +1,1023 @@
+[0.326s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.326s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f27f2083460>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f27f2080400>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f27f2080400>>)
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.345s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bjorn/Documents/ros-projects/cam_ws'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['cmake', 'python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python_setup_py'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_calibration_parsers' with type 'ros.ament_cmake' and name 'camera_calibration_parsers'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ros'
+[0.362s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_info_manager' with type 'ros.ament_cmake' and name 'camera_info_manager'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_common' with type 'ros.ament_cmake' and name 'image_common'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ros'
+[0.364s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_transport' with type 'ros.ament_cmake' and name 'image_transport'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) ignored
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'colcon_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['colcon_meta']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'colcon_meta'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['ros']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'ros'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['cmake', 'python']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'cmake'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'python'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['python_setup_py']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'python_setup_py'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'ros'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/compressed_depth_image_transport' with type 'ros.ament_cmake' and name 'compressed_depth_image_transport'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'ros'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/compressed_image_transport' with type 'ros.ament_cmake' and name 'compressed_image_transport'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'ros'
+[0.367s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/image_transport_plugins' with type 'ros.ament_cmake' and name 'image_transport_plugins'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/theora_image_transport' with type 'ros.ament_cmake' and name 'theora_image_transport'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ros'
+[0.369s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ros'
+[0.371s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[0.373s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.396s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 425 installed packages in /opt/ros/humble
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.453s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'cv_bridge' is in: /opt/ros/humble
+	'image_transport' is in: /opt/ros/humble
+	'vision_opencv' is in: /opt/ros/humble
+	'image_geometry' is in: /opt/ros/humble
+	'camera_info_manager' is in: /opt/ros/humble
+	'compressed_image_transport' is in: /opt/ros/humble
+	'image_transport_plugins' is in: /opt/ros/humble
+	'camera_calibration_parsers' is in: /opt/ros/humble
+	'image_common' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding camera_calibration_parsers camera_info_manager compressed_image_transport cv_bridge image_common image_geometry image_transport image_transport_plugins vision_opencv
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_target' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_clean_first' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_force_configure' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'ament_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.454s] DEBUG:colcon.colcon_core.verb:Building package 'camera_calibration_parsers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjorn/Documents/ros-projects/cam_ws/build/camera_calibration_parsers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers', 'merge_install': False, 'path': '/home/bjorn/Documents/ros-projects/cam_ws/src/image_common/camera_calibration_parsers', 'symlink_install': False, 'test_result_base': None}
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'cv_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjorn/Documents/ros-projects/cam_ws/build/cv_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge', 'merge_install': False, 'path': '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/cv_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'image_geometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjorn/Documents/ros-projects/cam_ws/build/image_geometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry', 'merge_install': False, 'path': '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/image_geometry', 'symlink_install': False, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_target' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport', 'merge_install': False, 'path': '/home/bjorn/Documents/ros-projects/cam_ws/src/image_common/image_transport', 'symlink_install': False, 'test_result_base': None}
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_target' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'camera_info_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjorn/Documents/ros-projects/cam_ws/build/camera_info_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager', 'merge_install': False, 'path': '/home/bjorn/Documents/ros-projects/cam_ws/src/image_common/camera_info_manager', 'symlink_install': False, 'test_result_base': None}
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.459s] DEBUG:colcon.colcon_core.verb:Building package 'compressed_depth_image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjorn/Documents/ros-projects/cam_ws/build/compressed_depth_image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport', 'merge_install': False, 'path': '/home/bjorn/Documents/ros-projects/cam_ws/src/image_transport_plugins/compressed_depth_image_transport', 'symlink_install': False, 'test_result_base': None}
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_target' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.459s] DEBUG:colcon.colcon_core.verb:Building package 'compressed_image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjorn/Documents/ros-projects/cam_ws/build/compressed_image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport', 'merge_install': False, 'path': '/home/bjorn/Documents/ros-projects/cam_ws/src/image_transport_plugins/compressed_image_transport', 'symlink_install': False, 'test_result_base': None}
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_first' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_force_configure' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'ament_cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.460s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests', 'merge_install': False, 'path': '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/opencv_tests', 'symlink_install': False, 'test_result_base': None}
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_target' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.461s] DEBUG:colcon.colcon_core.verb:Building package 'theora_image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport', 'merge_install': False, 'path': '/home/bjorn/Documents/ros-projects/cam_ws/src/image_transport_plugins/theora_image_transport', 'symlink_install': False, 'test_result_base': None}
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_first' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_force_configure' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'ament_cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.462s] DEBUG:colcon.colcon_core.verb:Building package 'vision_opencv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjorn/Documents/ros-projects/cam_ws/build/vision_opencv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv', 'merge_install': False, 'path': '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/vision_opencv', 'symlink_install': False, 'test_result_base': None}
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_target' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.463s] DEBUG:colcon.colcon_core.verb:Building package 'image_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjorn/Documents/ros-projects/cam_ws/build/image_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common', 'merge_install': False, 'path': '/home/bjorn/Documents/ros-projects/cam_ws/src/image_common/image_common', 'symlink_install': False, 'test_result_base': None}
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_target' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.464s] DEBUG:colcon.colcon_core.verb:Building package 'image_transport_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins', 'merge_install': False, 'path': '/home/bjorn/Documents/ros-projects/cam_ws/src/image_transport_plugins/image_transport_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.465s] DEBUG:colcon.colcon_core.verb:Building package 'v4l2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera', 'merge_install': False, 'path': '/home/bjorn/Documents/ros-projects/cam_ws/src/ros2_v4l2_camera', 'symlink_install': False, 'test_result_base': None}
+[0.466s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.468s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.468s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/cv_bridge' with build type 'ament_cmake'
+[0.468s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/cv_bridge'
+[0.474s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.474s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.477s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_common/image_transport' with build type 'ament_cmake'
+[0.477s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_common/image_transport'
+[0.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.478s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.481s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_common/camera_calibration_parsers' with build type 'ament_cmake'
+[0.481s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_common/camera_calibration_parsers'
+[0.482s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.482s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.484s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/image_geometry' with build type 'ament_cmake'
+[0.485s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/image_geometry'
+[0.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/cv_bridge -- -j20 -l20
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/image_transport -- -j20 -l20
+[0.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/camera_calibration_parsers -- -j20 -l20
+[0.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/image_geometry -- -j20 -l20
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/camera_calibration_parsers -- -j20 -l20
+[0.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/image_transport -- -j20 -l20
+[0.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/camera_calibration_parsers
+[0.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/image_transport
+[0.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_calibration_parsers)
+[0.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/camera_calibration_parsers
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers' for CMake module files
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers' for CMake config files
+[0.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'cmake_prefix_path')
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.ps1'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.dsv'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.sh'
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib'
+[0.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'ld_library_path_lib')
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.ps1'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.dsv'
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.sh'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/bin'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib/pkgconfig/camera_calibration_parsers.pc'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib/python3.10/site-packages'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/bin'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.ps1'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.sh'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.bash'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.zsh'
+[0.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/colcon-core/packages/camera_calibration_parsers)
+[0.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_transport)
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport' for CMake module files
+[0.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/image_transport
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport' for CMake config files
+[0.636s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'cmake_prefix_path')
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.dsv'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.sh'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib'
+[0.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'ld_library_path_lib')
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.ps1'
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.dsv'
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.sh'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/bin'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib/pkgconfig/image_transport.pc'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib/python3.10/site-packages'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/bin'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/package.ps1'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/package.dsv'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/package.sh'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/package.bash'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/package.zsh'
+[0.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/colcon-core/packages/image_transport)
+[0.667s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_calibration_parsers)
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers' for CMake module files
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers' for CMake config files
+[0.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'cmake_prefix_path')
+[0.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.ps1'
+[0.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.dsv'
+[0.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.sh'
+[0.671s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib'
+[0.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'ld_library_path_lib')
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.ps1'
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.dsv'
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.sh'
+[0.673s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/bin'
+[0.673s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib/pkgconfig/camera_calibration_parsers.pc'
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib/python3.10/site-packages'
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/bin'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.ps1'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.sh'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.bash'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.zsh'
+[0.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/share/colcon-core/packages/camera_calibration_parsers)
+[0.677s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_common/camera_info_manager' with build type 'ament_cmake'
+[0.677s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_common/camera_info_manager'
+[0.678s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.678s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/camera_info_manager -- -j20 -l20
+[0.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_transport)
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport' for CMake module files
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport' for CMake config files
+[0.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'cmake_prefix_path')
+[0.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.ps1'
+[0.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.dsv'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.sh'
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib'
+[0.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'ld_library_path_lib')
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.dsv'
+[0.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.sh'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/bin'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib/pkgconfig/image_transport.pc'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib/python3.10/site-packages'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/bin'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/package.ps1'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/package.dsv'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/package.sh'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/package.bash'
+[0.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/package.zsh'
+[0.698s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/colcon-core/packages/image_transport)
+[0.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/camera_info_manager -- -j20 -l20
+[0.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/camera_info_manager
+[0.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_info_manager)
+[0.771s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager' for CMake module files
+[0.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/camera_info_manager
+[0.772s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager' for CMake config files
+[0.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'cmake_prefix_path')
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.ps1'
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.dsv'
+[0.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.sh'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib'
+[0.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'ld_library_path_lib')
+[0.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.ps1'
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.dsv'
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.sh'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/bin'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib/pkgconfig/camera_info_manager.pc'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib/python3.10/site-packages'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/bin'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/package.ps1'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/package.dsv'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/package.sh'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/package.bash'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/package.zsh'
+[0.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/colcon-core/packages/camera_info_manager)
+[0.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/cv_bridge -- -j20 -l20
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/image_geometry -- -j20 -l20
+[0.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_info_manager)
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager' for CMake module files
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager' for CMake config files
+[0.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'cmake_prefix_path')
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.ps1'
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.dsv'
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.sh'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib'
+[0.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'ld_library_path_lib')
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.ps1'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.dsv'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.sh'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/bin'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib/pkgconfig/camera_info_manager.pc'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib/python3.10/site-packages'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/bin'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/package.ps1'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/package.dsv'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/package.sh'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/package.bash'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/package.zsh'
+[0.818s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/colcon-core/packages/camera_info_manager)
+[0.818s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_common/image_common' with build type 'ament_cmake'
+[0.818s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_common/image_common'
+[0.819s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.819s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/cv_bridge
+[0.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_common': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/image_common -- -j20 -l20
+[0.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/image_geometry
+[0.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_common' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/image_common -- -j20 -l20
+[0.870s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[0.871s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge' for CMake module files
+[0.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/cv_bridge
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge' for CMake config files
+[0.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[0.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[0.874s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib'
+[0.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[0.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/bin'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib/python3.10/site-packages'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/bin'
+[0.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/package.ps1'
+[0.878s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/package.dsv'
+[0.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/package.sh'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/package.bash'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/package.zsh'
+[0.879s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[0.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_common': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/image_common
+[0.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_geometry)
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry' for CMake module files
+[0.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/image_geometry
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry' for CMake config files
+[0.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'cmake_prefix_path')
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.ps1'
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.dsv'
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.sh'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/lib'
+[0.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'ld_library_path_lib')
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.ps1'
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.dsv'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.sh'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/bin'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/lib/pkgconfig/image_geometry.pc'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/lib/python3.10/site-packages'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/bin'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/package.ps1'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/package.dsv'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/package.sh'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/package.bash'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/package.zsh'
+[0.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/colcon-core/packages/image_geometry)
+[0.903s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_common)
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common' for CMake module files
+[0.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_common' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/image_common
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common' for CMake config files
+[0.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_common', 'cmake_prefix_path')
+[0.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/hook/cmake_prefix_path.ps1'
+[0.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/hook/cmake_prefix_path.dsv'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/hook/cmake_prefix_path.sh'
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/bin'
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/lib/pkgconfig/image_common.pc'
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/lib/python3.10/site-packages'
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/bin'
+[0.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/package.ps1'
+[0.909s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/package.dsv'
+[0.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/package.sh'
+[0.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/package.bash'
+[0.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/package.zsh'
+[0.910s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/colcon-core/packages/image_common)
+[0.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge' for CMake module files
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge' for CMake config files
+[0.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib'
+[0.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[0.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[0.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[0.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/bin'
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib/python3.10/site-packages'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/bin'
+[0.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/package.ps1'
+[0.919s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/package.dsv'
+[0.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/package.sh'
+[0.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/package.bash'
+[0.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/package.zsh'
+[0.920s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[0.920s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_transport_plugins/compressed_depth_image_transport' with build type 'ament_cmake'
+[0.921s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_transport_plugins/compressed_depth_image_transport'
+[0.922s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.922s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.925s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_transport_plugins/compressed_image_transport' with build type 'ament_cmake'
+[0.925s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_transport_plugins/compressed_image_transport'
+[0.926s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.926s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.928s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_transport_plugins/theora_image_transport' with build type 'ament_cmake'
+[0.928s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_transport_plugins/theora_image_transport'
+[0.930s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.930s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.932s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/opencv_tests' with build type 'ament_python'
+[0.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tests', 'ament_prefix_path')
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/opencv_tests/hook/ament_prefix_path.ps1'
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/opencv_tests/hook/ament_prefix_path.dsv'
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/opencv_tests/hook/ament_prefix_path.sh'
+[0.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.938s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjorn/Documents/ros-projects/cam_ws/src/ros2_v4l2_camera' with build type 'ament_cmake'
+[0.938s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjorn/Documents/ros-projects/cam_ws/src/ros2_v4l2_camera'
+[0.939s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.939s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.944s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_geometry)
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry' for CMake module files
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry' for CMake config files
+[0.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'cmake_prefix_path')
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.ps1'
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.dsv'
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.sh'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/lib'
+[0.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'ld_library_path_lib')
+[0.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.ps1'
+[0.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.dsv'
+[0.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.sh'
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/bin'
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/lib/pkgconfig/image_geometry.pc'
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/lib/python3.10/site-packages'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/bin'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/package.ps1'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/package.dsv'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/package.sh'
+[0.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/package.bash'
+[0.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/image_geometry/package.zsh'
+[0.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/share/colcon-core/packages/image_geometry)
+[0.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_common)
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common' for CMake module files
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common' for CMake config files
+[0.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_common', 'cmake_prefix_path')
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/hook/cmake_prefix_path.ps1'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/hook/cmake_prefix_path.dsv'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/hook/cmake_prefix_path.sh'
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/bin'
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/lib/pkgconfig/image_common.pc'
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/lib/python3.10/site-packages'
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/bin'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/package.ps1'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/package.dsv'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/package.sh'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/package.bash'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/image_common/package.zsh'
+[0.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/image_common/share/colcon-core/packages/image_common)
+[0.961s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/vision_opencv' with build type 'ament_cmake'
+[0.961s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/vision_opencv'
+[0.962s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.962s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/compressed_depth_image_transport': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/compressed_depth_image_transport -- -j20 -l20
+[0.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/compressed_image_transport': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/compressed_image_transport -- -j20 -l20
+[0.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport -- -j20 -l20
+[1.216s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/opencv_tests'
+[1.217s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera -- -j20 -l20
+[1.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/compressed_image_transport' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/compressed_image_transport -- -j20 -l20
+[1.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/compressed_depth_image_transport' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/compressed_depth_image_transport -- -j20 -l20
+[1.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/vision_opencv': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/vision_opencv -- -j20 -l20
+[1.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/compressed_image_transport': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/compressed_image_transport
+[1.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/compressed_depth_image_transport': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/compressed_depth_image_transport
+[1.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/vision_opencv -- -j20 -l20
+[1.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport -- -j20 -l20
+[1.277s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(compressed_image_transport)
+[1.279s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport' for CMake module files
+[1.279s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport' for CMake config files
+[1.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_image_transport', 'cmake_prefix_path')
+[1.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/hook/cmake_prefix_path.ps1'
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/hook/cmake_prefix_path.dsv'
+[1.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera -- -j20 -l20
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/hook/cmake_prefix_path.sh'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/lib'
+[1.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_image_transport', 'ld_library_path_lib')
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/hook/ld_library_path_lib.ps1'
+[1.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/compressed_image_transport' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/compressed_image_transport
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/hook/ld_library_path_lib.dsv'
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/hook/ld_library_path_lib.sh'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/bin'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/lib/pkgconfig/compressed_image_transport.pc'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/lib/python3.10/site-packages'
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/bin'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/package.ps1'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/package.dsv'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/package.sh'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/package.bash'
+[1.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/package.zsh'
+[1.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/colcon-core/packages/compressed_image_transport)
+[1.292s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(compressed_depth_image_transport)
+[1.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/vision_opencv': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/vision_opencv
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport' for CMake module files
+[1.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/compressed_depth_image_transport' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/compressed_depth_image_transport
+[1.295s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport' for CMake config files
+[1.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_depth_image_transport', 'cmake_prefix_path')
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/cmake_prefix_path.ps1'
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/cmake_prefix_path.dsv'
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/cmake_prefix_path.sh'
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/lib'
+[1.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_depth_image_transport', 'ld_library_path_lib')
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/ld_library_path_lib.ps1'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/ld_library_path_lib.dsv'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/ld_library_path_lib.sh'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/bin'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/lib/pkgconfig/compressed_depth_image_transport.pc'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/lib/python3.10/site-packages'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/bin'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.ps1'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.dsv'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.sh'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.bash'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.zsh'
+[1.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/colcon-core/packages/compressed_depth_image_transport)
+[1.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera
+[1.314s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_opencv)
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv' for CMake module files
+[1.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/vision_opencv
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv' for CMake config files
+[1.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_opencv', 'cmake_prefix_path')
+[1.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.ps1'
+[1.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.dsv'
+[1.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.sh'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/bin'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/lib/pkgconfig/vision_opencv.pc'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/lib/python3.10/site-packages'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/bin'
+[1.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/package.ps1'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/package.dsv'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/package.sh'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/package.bash'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/package.zsh'
+[1.321s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/colcon-core/packages/vision_opencv)
+[1.325s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(compressed_image_transport)
+[1.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport' for CMake module files
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport' for CMake config files
+[1.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_image_transport', 'cmake_prefix_path')
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/hook/cmake_prefix_path.ps1'
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/hook/cmake_prefix_path.dsv'
+[1.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/hook/cmake_prefix_path.sh'
+[1.330s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/lib'
+[1.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_image_transport', 'ld_library_path_lib')
+[1.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/hook/ld_library_path_lib.ps1'
+[1.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/hook/ld_library_path_lib.dsv'
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/hook/ld_library_path_lib.sh'
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/bin'
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/lib/pkgconfig/compressed_image_transport.pc'
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/lib/python3.10/site-packages'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/bin'
+[1.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/package.ps1'
+[1.336s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/package.dsv'
+[1.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/package.sh'
+[1.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/package.bash'
+[1.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/compressed_image_transport/package.zsh'
+[1.337s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/share/colcon-core/packages/compressed_image_transport)
+[1.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(compressed_depth_image_transport)
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport' for CMake module files
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport' for CMake config files
+[1.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_depth_image_transport', 'cmake_prefix_path')
+[1.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/cmake_prefix_path.ps1'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/cmake_prefix_path.dsv'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/cmake_prefix_path.sh'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/lib'
+[1.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('compressed_depth_image_transport', 'ld_library_path_lib')
+[1.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/ld_library_path_lib.ps1'
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/ld_library_path_lib.dsv'
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/hook/ld_library_path_lib.sh'
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/bin'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/lib/pkgconfig/compressed_depth_image_transport.pc'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/lib/python3.10/site-packages'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/bin'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.ps1'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.dsv'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.sh'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.bash'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/compressed_depth_image_transport/package.zsh'
+[1.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/share/colcon-core/packages/compressed_depth_image_transport)
+[1.352s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera' for CMake module files
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera' for CMake config files
+[1.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[1.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib'
+[1.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[1.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[1.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[1.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/bin'
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[1.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/python3.10/site-packages'
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/bin'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/package.sh'
+[1.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/package.bash'
+[1.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[1.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[1.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_opencv)
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv' for CMake module files
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv' for CMake config files
+[1.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_opencv', 'cmake_prefix_path')
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.ps1'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.dsv'
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.sh'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/bin'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/lib/pkgconfig/vision_opencv.pc'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/lib/python3.10/site-packages'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/bin'
+[1.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/package.ps1'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/package.dsv'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/package.sh'
+[1.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/package.bash'
+[1.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/vision_opencv/package.zsh'
+[1.377s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/vision_opencv/share/colcon-core/packages/vision_opencv)
+[1.377s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(theora_image_transport)
+[1.379s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport' for CMake module files
+[1.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport' for CMake config files
+[1.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('theora_image_transport', 'cmake_prefix_path')
+[1.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/hook/cmake_prefix_path.ps1'
+[1.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/hook/cmake_prefix_path.dsv'
+[1.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/hook/cmake_prefix_path.sh'
+[1.383s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib'
+[1.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('theora_image_transport', 'ld_library_path_lib')
+[1.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/hook/ld_library_path_lib.ps1'
+[1.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/hook/ld_library_path_lib.dsv'
+[1.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/hook/ld_library_path_lib.sh'
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/bin'
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib/pkgconfig/theora_image_transport.pc'
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib/python3.10/site-packages'
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/bin'
+[1.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/package.ps1'
+[1.387s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/package.dsv'
+[1.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/package.sh'
+[1.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/package.bash'
+[1.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/package.zsh'
+[1.388s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/colcon-core/packages/theora_image_transport)
+[1.396s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[1.398s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera' for CMake module files
+[1.398s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera' for CMake config files
+[1.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[1.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[1.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[1.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[1.401s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib'
+[1.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[1.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[1.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[1.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[1.403s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/bin'
+[1.403s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[1.403s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/python3.10/site-packages'
+[1.403s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/bin'
+[1.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[1.405s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[1.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/package.sh'
+[1.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/package.bash'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[1.406s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[1.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(theora_image_transport)
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport' for CMake module files
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport' for CMake config files
+[1.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('theora_image_transport', 'cmake_prefix_path')
+[1.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/hook/cmake_prefix_path.ps1'
+[1.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/hook/cmake_prefix_path.dsv'
+[1.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/hook/cmake_prefix_path.sh'
+[1.440s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib'
+[1.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('theora_image_transport', 'ld_library_path_lib')
+[1.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/hook/ld_library_path_lib.ps1'
+[1.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/hook/ld_library_path_lib.dsv'
+[1.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/hook/ld_library_path_lib.sh'
+[1.442s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/bin'
+[1.442s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib/pkgconfig/theora_image_transport.pc'
+[1.442s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib/python3.10/site-packages'
+[1.442s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/bin'
+[1.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/package.ps1'
+[1.444s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/package.dsv'
+[1.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/package.sh'
+[1.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/package.bash'
+[1.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/package.zsh'
+[1.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/colcon-core/packages/theora_image_transport)
+[1.445s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_transport_plugins/image_transport_plugins' with build type 'ament_cmake'
+[1.445s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjorn/Documents/ros-projects/cam_ws/src/image_transport_plugins/image_transport_plugins'
+[1.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport_plugins': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/image_transport_plugins -- -j20 -l20
+[1.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport_plugins' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/image_transport_plugins -- -j20 -l20
+[1.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport_plugins': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/image_transport_plugins
+[1.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_transport_plugins)
+[1.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_transport_plugins' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/compressed_depth_image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/image_transport_plugins
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins' for CMake module files
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins' for CMake config files
+[1.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport_plugins', 'cmake_prefix_path')
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/hook/cmake_prefix_path.ps1'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/hook/cmake_prefix_path.dsv'
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/hook/cmake_prefix_path.sh'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/bin'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/lib/pkgconfig/image_transport_plugins.pc'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/lib/python3.10/site-packages'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/bin'
+[1.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/package.ps1'
+[1.540s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/package.dsv'
+[1.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/package.sh'
+[1.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/package.bash'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/package.zsh'
+[1.541s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/colcon-core/packages/image_transport_plugins)
+[1.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_transport_plugins)
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins' for CMake module files
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins' for CMake config files
+[1.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport_plugins', 'cmake_prefix_path')
+[1.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/hook/cmake_prefix_path.ps1'
+[1.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/hook/cmake_prefix_path.dsv'
+[1.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/hook/cmake_prefix_path.sh'
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/bin'
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/lib/pkgconfig/image_transport_plugins.pc'
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/lib/python3.10/site-packages'
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/bin'
+[1.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/package.ps1'
+[1.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/package.dsv'
+[1.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/package.sh'
+[1.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/package.bash'
+[1.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/image_transport_plugins/package.zsh'
+[1.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport_plugins/share/colcon-core/packages/image_transport_plugins)
+[1.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/prefix_override:/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/build install --record /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/install.log --single-version-externally-managed
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests' for CMake module files
+[1.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/src/vision_opencv/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/prefix_override:/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/build install --record /home/bjorn/Documents/ros-projects/cam_ws/build/opencv_tests/install.log --single-version-externally-managed
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests' for CMake config files
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib'
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/bin'
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/pkgconfig/opencv_tests.pc'
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/lib/python3.10/site-packages'
+[1.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tests', 'pythonpath')
+[1.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/opencv_tests/hook/pythonpath.ps1'
+[1.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/opencv_tests/hook/pythonpath.dsv'
+[1.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/opencv_tests/hook/pythonpath.sh'
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/bin'
+[1.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_tests)
+[1.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/opencv_tests/package.ps1'
+[1.859s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/opencv_tests/package.dsv'
+[1.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/opencv_tests/package.sh'
+[1.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/opencv_tests/package.bash'
+[1.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/opencv_tests/package.zsh'
+[1.860s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjorn/Documents/ros-projects/cam_ws/install/opencv_tests/share/colcon-core/packages/opencv_tests)
+[1.860s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.860s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.860s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.860s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.866s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.866s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.866s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.875s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.877s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bjorn/Documents/ros-projects/cam_ws/install/local_setup.ps1'
+[1.878s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bjorn/Documents/ros-projects/cam_ws/install/_local_setup_util_ps1.py'
+[1.878s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bjorn/Documents/ros-projects/cam_ws/install/setup.ps1'
+[1.880s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bjorn/Documents/ros-projects/cam_ws/install/local_setup.sh'
+[1.880s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bjorn/Documents/ros-projects/cam_ws/install/_local_setup_util_sh.py'
+[1.880s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bjorn/Documents/ros-projects/cam_ws/install/setup.sh'
+[1.881s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bjorn/Documents/ros-projects/cam_ws/install/local_setup.bash'
+[1.882s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bjorn/Documents/ros-projects/cam_ws/install/setup.bash'
+[1.883s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bjorn/Documents/ros-projects/cam_ws/install/local_setup.zsh'
+[1.883s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bjorn/Documents/ros-projects/cam_ws/install/setup.zsh'
+[1.884s] INFO:colcon.colcon_core.shell:Creating '/home/bjorn/Documents/ros-projects/cam_ws/install/spawn_shell.bash'

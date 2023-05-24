@@ -1,0 +1,154 @@
+[0.041s] Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport -- -j20 -l20
+[0.294s] [  2%] Built target theora_image_transport__cpp
+[0.294s] [ 10%] Built target theora_image_transport__rosidl_generator_c
+[0.294s] [ 10%] Built target ament_cmake_python_copy_theora_image_transport
+[0.295s] [ 27%] Built target theora_image_transport__rosidl_typesupport_cpp
+[0.295s] [ 27%] Built target theora_image_transport__rosidl_typesupport_fastrtps_cpp
+[0.295s] [ 35%] Built target theora_image_transport__rosidl_typesupport_introspection_c
+[0.296s] [ 43%] Built target theora_image_transport__rosidl_typesupport_c
+[0.296s] [ 51%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c
+[0.296s] [ 59%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp
+[0.297s] [ 59%] Built target theora_image_transport
+[0.297s] [ 64%] Built target ogg_saver
+[0.297s] [ 75%] Built target theora_image_transport_component
+[0.297s] [ 78%] Built target theora_image_transport__py
+[0.297s] [ 83%] Built target theora_image_transport__rosidl_generator_py
+[0.297s] [ 97%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext
+[0.297s] [100%] Built target theora_image_transport__rosidl_typesupport_introspection_c__pyext
+[0.298s] [100%] Built target theora_image_transport__rosidl_typesupport_c__pyext
+[0.317s] running egg_info
+[0.318s] writing theora_image_transport.egg-info/PKG-INFO
+[0.318s] writing dependency_links to theora_image_transport.egg-info/dependency_links.txt
+[0.318s] writing top-level names to theora_image_transport.egg-info/top_level.txt
+[0.320s] reading manifest file 'theora_image_transport.egg-info/SOURCES.txt'
+[0.321s] writing manifest file 'theora_image_transport.egg-info/SOURCES.txt'
+[0.338s] [100%] Built target ament_cmake_python_build_theora_image_transport_egg
+[0.347s] Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport -- -j20 -l20
+[0.395s] Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport
+[0.414s] -- Install configuration: ""
+[0.414s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/ament_index/resource_index/rosidl_interfaces/theora_image_transport
+[0.415s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport
+[0.415s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg
+[0.415s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/packet.h
+[0.415s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail
+[0.417s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__functions.h
+[0.417s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__functions.c
+[0.417s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__struct.h
+[0.417s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__type_support.h
+[0.417s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/rosidl_generator_c__visibility_control.h
+[0.418s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/environment/library_path.sh
+[0.418s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/environment/library_path.dsv
+[0.418s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_generator_c.so
+[0.418s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport
+[0.418s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg
+[0.420s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.420s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail
+[0.421s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h
+[0.421s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_c.so
+[0.421s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport
+[0.421s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg
+[0.421s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/packet.hpp
+[0.421s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail
+[0.421s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__builder.hpp
+[0.422s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__struct.hpp
+[0.422s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__traits.hpp
+[0.422s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport
+[0.422s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg
+[0.422s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.422s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail
+[0.423s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/dds_fastrtps
+[0.423s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_cpp.hpp
+[0.423s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_cpp.so
+[0.423s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport
+[0.425s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg
+[0.425s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.425s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail
+[0.425s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__type_support.c
+[0.425s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_c.h
+[0.425s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_c.so
+[0.426s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_c.so
+[0.426s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport
+[0.426s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg
+[0.426s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail
+[0.426s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__type_support.cpp
+[0.426s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_cpp.hpp
+[0.426s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_cpp.so
+[0.426s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_cpp.so
+[0.426s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/environment/pythonpath.sh
+[0.426s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/environment/pythonpath.dsv
+[0.428s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport-2.5.0-py3.10.egg-info
+[0.428s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport-2.5.0-py3.10.egg-info/PKG-INFO
+[0.428s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport-2.5.0-py3.10.egg-info/SOURCES.txt
+[0.428s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport-2.5.0-py3.10.egg-info/dependency_links.txt
+[0.428s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport-2.5.0-py3.10.egg-info/top_level.txt
+[0.428s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport
+[0.428s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.428s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_c.c
+[0.429s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.429s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/libtheora_image_transport__rosidl_generator_py.so
+[0.429s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/__init__.py
+[0.429s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/msg
+[0.429s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/msg/_packet_s.c
+[0.430s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/msg/__init__.py
+[0.431s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/msg/_packet.py
+[0.431s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.431s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.431s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_introspection_c.c
+[0.438s] Listing '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport'...
+[0.438s] Listing '/home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/msg'...
+[0.440s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.440s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.441s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.441s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_generator_py.so
+[0.441s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/msg/Packet.idl
+[0.441s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/msg/Packet.msg
+[0.442s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib/libtheora_image_transport_component.so
+[0.444s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/lib/theora_image_transport/ogg_saver
+[0.444s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport
+[0.444s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport
+[0.444s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/theora_publisher.h
+[0.444s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/theora_subscriber.h
+[0.445s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/theora_plugins.xml
+[0.445s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/ament_index/resource_index/package_run_dependencies/theora_image_transport
+[0.445s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/ament_index/resource_index/parent_prefix_path/theora_image_transport
+[0.445s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/environment/ament_prefix_path.sh
+[0.445s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/environment/ament_prefix_path.dsv
+[0.445s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/environment/path.sh
+[0.445s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/environment/path.dsv
+[0.445s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/local_setup.bash
+[0.445s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/local_setup.sh
+[0.445s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/local_setup.zsh
+[0.445s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/local_setup.dsv
+[0.445s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/package.dsv
+[0.445s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/ament_index/resource_index/packages/theora_image_transport
+[0.445s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/theora_image_transport
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_generator_cExport.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_generator_cExport-noconfig.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_typesupport_fastrtps_cExport.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_generator_cppExport.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cExport.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cExport.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cExport-noconfig.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cppExport.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cppExport.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cppExport-noconfig.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_generator_pyExport.cmake
+[0.446s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_generator_pyExport-noconfig.cmake
+[0.447s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport_componentExport.cmake
+[0.447s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport_componentExport-noconfig.cmake
+[0.447s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/rosidl_cmake-extras.cmake
+[0.447s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.447s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.447s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_libraries-extras.cmake
+[0.447s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_targets-extras.cmake
+[0.447s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.447s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.447s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transportConfig.cmake
+[0.447s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transportConfig-version.cmake
+[0.447s] -- Up-to-date: /home/bjorn/Documents/ros-projects/cam_ws/install/theora_image_transport/share/theora_image_transport/package.xml
+[0.451s] Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/theora_image_transport

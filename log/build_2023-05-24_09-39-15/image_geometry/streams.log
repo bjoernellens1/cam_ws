@@ -1,0 +1,24 @@
+[0.012s] Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/image_geometry -- -j20 -l20
+[0.038s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.039s] [ 22%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o[0m
+[0.039s] [ 33%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o[0m
+[0.039s] [ 44%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.039s] [ 44%] Built target ament_cmake_python_copy_image_geometry
+[0.279s] running egg_info
+[0.279s] creating image_geometry.egg-info
+[0.279s] writing image_geometry.egg-info/PKG-INFO
+[0.280s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[0.280s] writing top-level names to image_geometry.egg-info/top_level.txt
+[0.281s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[0.282s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[0.283s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[0.302s] [ 44%] Built target ament_cmake_python_build_image_geometry_egg
+[0.465s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[0.490s] [ 55%] Built target gtest_main
+[0.893s] [ 66%] [32m[1mLinking CXX shared library libimage_geometry.so[0m
+[0.974s] [ 66%] Built target image_geometry
+[2.139s] [ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[2.178s] [ 77%] Built target gtest
+[2.183s] [ 88%] [32mBuilding CXX object CMakeFiles/image_geometry-utest.dir/test/utest.cpp.o[0m
+[3.108s] [100%] [32m[1mLinking CXX executable image_geometry-utest[0m
+[3.204s] [100%] Built target image_geometry-utest

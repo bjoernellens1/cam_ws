@@ -1,0 +1,104 @@
+[0.009s] Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake /home/bjorn/Documents/ros-projects/cam_ws/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera
+[0.053s] -- The C compiler identification is GNU 11.3.0
+[0.087s] -- The CXX compiler identification is GNU 11.3.0
+[0.092s] -- Detecting C compiler ABI info
+[0.125s] -- Detecting C compiler ABI info - done
+[0.140s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.140s] -- Detecting C compile features
+[0.140s] -- Detecting C compile features - done
+[0.144s] -- Detecting CXX compiler ABI info
+[0.186s] -- Detecting CXX compiler ABI info - done
+[0.195s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.195s] -- Detecting CXX compile features
+[0.196s] -- Detecting CXX compile features - done
+[0.198s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.440s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.503s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.509s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.546s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.550s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.558s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.570s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.588s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.650s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.652s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.717s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.739s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.777s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.785s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.821s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.822s] -- Found Threads: TRUE  
+[0.965s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.024s] -- Found camera_info_manager: 3.1.5 (/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/share/camera_info_manager/cmake)
+[1.175s] -- Found cv_bridge: 3.2.1 (/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/share/cv_bridge/cmake)
+[1.189s] -- Found image_transport: 3.1.5 (/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/share/image_transport/cmake)
+[1.225s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.298s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.298s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bjorn/Documents/ros-projects/cam_ws/src/ros2_v4l2_camera/include>
+[1.298s] -- Configured cppcheck exclude dirs and/or files: 
+[1.300s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.300s] -- Configured cpplint exclude dirs and/or files: 
+[1.301s] -- Added test 'lint_cmake' to check CMake code style
+[1.303s] -- Added test 'uncrustify' to check C / C++ code style
+[1.303s] -- Configured uncrustify additional arguments: 
+[1.304s] -- Added test 'xmllint' to check XML markup files
+[1.307s] -- Configuring done (1.3s)
+[1.328s] -- Generating done (0.0s)
+[1.331s] -- Build files have been written to: /home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera
+[1.346s] Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake /home/bjorn/Documents/ros-projects/cam_ws/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera
+[1.347s] Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera -- -j20 -l20
+[1.386s] [ 12%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[1.386s] [ 25%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o[0m
+[1.387s] [ 37%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o[0m
+[7.912s] [ 50%] [32m[1mLinking CXX shared library libv4l2_camera.so[0m
+[8.356s] [ 50%] Built target v4l2_camera
+[8.361s] [ 62%] [32mBuilding CXX object CMakeFiles/v4l2_camera_node.dir/src/v4l2_camera_node.cpp.o[0m
+[8.361s] [ 75%] [32mBuilding CXX object CMakeFiles/v4l2_camera_compose_test.dir/src/v4l2_camera_compose_test.cpp.o[0m
+[10.515s] [ 87%] [32m[1mLinking CXX executable v4l2_camera_node[0m
+[10.840s] [ 87%] Built target v4l2_camera_node
+[14.022s] [100%] [32m[1mLinking CXX executable v4l2_camera_compose_test[0m
+[14.459s] [100%] Built target v4l2_camera_compose_test
+[14.464s] Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --build /home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera -- -j20 -l20
+[14.497s] Invoking command in '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera
+[14.515s] -- Install configuration: ""
+[14.515s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include
+[14.515s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera
+[14.515s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[14.515s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[14.515s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/parameters.hpp
+[14.515s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[14.515s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[14.516s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[14.516s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[14.516s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/include/v4l2_camera/control.hpp
+[14.516s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/libv4l2_camera.so
+[14.520s] -- Set runtime path of "/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/libv4l2_camera.so" to ""
+[14.520s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node
+[14.521s] -- Set runtime path of "/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node" to ""
+[14.521s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test
+[14.524s] -- Set runtime path of "/home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test" to ""
+[14.524s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh
+[14.524s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv
+[14.524s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera
+[14.524s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera
+[14.524s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh
+[14.524s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv
+[14.524s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/environment/path.sh
+[14.524s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/environment/path.dsv
+[14.525s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/local_setup.bash
+[14.525s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/local_setup.sh
+[14.525s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/local_setup.zsh
+[14.525s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/local_setup.dsv
+[14.525s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/package.dsv
+[14.525s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera
+[14.525s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera
+[14.525s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake
+[14.525s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake
+[14.525s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.525s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[14.525s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[14.526s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.526s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake
+[14.526s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake
+[14.526s] -- Installing: /home/bjorn/Documents/ros-projects/cam_ws/install/v4l2_camera/share/v4l2_camera/package.xml
+[14.529s] Invoked command in '/home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera' returned '0': AMENT_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers:/opt/ros/humble LD_LIBRARY_PATH=/home/bjorn/Documents/ros-projects/cam_ws/install/camera_info_manager/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/image_transport/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/lib:/home/bjorn/Documents/ros-projects/cam_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjorn/Documents/ros-projects/cam_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/bjorn/.local/bin/cmake --install /home/bjorn/Documents/ros-projects/cam_ws/build/v4l2_camera
